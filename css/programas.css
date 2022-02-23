@@ -236,3 +236,35 @@ span.sb-icon:before {
 .icon-download:before { content: '\41'; } /* 'A' */
 .icon-mobile:before { content: '\42'; } /* 'B' */
 .icon-camera:before { content: '\33'; } /* '3' */
+
+
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+    
+
+}
+.contenedor-galeria{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+
+.img-galeria{
+    width:250px;
+	height:250px;
+	justify-content: space-evenly;
+    display: block;
+	margin-top: 30px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    cursor: pointer;
+}
