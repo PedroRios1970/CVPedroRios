@@ -1,6 +1,6 @@
 .view {
-   width: 265px;
-   height: 265px;
+   width: 225px;
+   height: 225px;
    margin: 10px;
    float: left;
    border: 0px solid #7a98b9;
@@ -11,8 +11,9 @@
    -moz-box-shadow: 1px 1px 1px 1px #7a98b9;
    box-shadow: 1px 1px 1px 1px #7a98b9;
    cursor: default;
-
+   margin-left: 1px;
 }
+
 .view .mask,.view .content {
    width: 265px;
    height: 150px;
@@ -24,8 +25,7 @@
 .view img {
    display: block;
    position: relative;
-   border-radius: 25px;
-
+   border-radius: 1px;
 }
 .view h3 {
    text-transform: uppercase;
@@ -57,6 +57,8 @@
    -moz-box-shadow: 0 0 1px #000;
    box-shadow: 0 0 1px #000;
 }
+
+
 .view a.info: hover {
    -webkit-box-shadow: 0 0 5px #000;
    -moz-box-shadow: 0 0 5px #000;
